@@ -2,7 +2,9 @@ package com.taotao.pojo;
 
 import java.util.Date;
 
-public class TbItemParam {
+import com.taotao.common.LavaDo;
+
+public class TbItemParam extends LavaDo{
     private Long id;
 
     private Long itemCatId;
