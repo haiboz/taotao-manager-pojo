@@ -2,7 +2,9 @@ package com.taotao.pojo;
 
 import java.util.Date;
 
-public class TbContent {
+import com.taotao.common.LavaDo;
+
+public class TbContent extends LavaDo{
     private Long id;
 
     private Long categoryId;

@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class TbContentExample {
+import com.taotao.common.LavaExample;
+
+public class TbContentExample  extends LavaExample{
     protected String orderByClause;
 
     protected boolean distinct;
